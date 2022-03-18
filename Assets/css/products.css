@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+}
+nav{
+    position: relative;
+}
+.meniu-content-1{
+    width:100%;
+    display: flex;
+    justify-content:center;
+}
+.meniu-content-1-img{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.meniu-content-1-img img{
+   width: 1200px;
+   height: 720px;
+}
+.meniu-content-1-2{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.meniu-content-1-2 img{
+    width: 50px;
+    height:50px;
+    filter: invert(100%)
+}
+.meniu-content-1-2 h1{
+    color:rgba(255, 254, 254, 0.959);
+    text-shadow: 5px 5px #000000;
+    font-family: 'Comforter', cursive; 
+}
+h1{
+    font-size: 118px;
+    color:white;
+    margin-bottom: 220px;
+}
+.product-part-2{
+    height: 85vh;
+}
+.product-part-2-title{
+    font-size: 50px;
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+.product-part-2-menus{
+    display:flex;
+    height: 100%;
+    width: auto;
+}
+.product-part-2-menu-1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 200px;
+}
+.product-part-2-menu-1-title{
+    background-color: rgb(124, 29, 116);
+    color: rgba(255, 255, 255, 0.945);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-card{
+    background-color: white;
+    width: 450px;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.mancare-1-menu-1{
+    width: 100%;
+    padding: 20px;
+}
+.product-part-2-menu-2{
+    /* border: 2px solid black;  */
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin-right: 200px;
+}
+.product-part-2-menu-2-frame{
+    background-color: white;
+    height: 500px;
+    width: 450px;
+    margin: 35px 40px 0 40px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.menu-2-title{
+    /* Border: 2px solid blue; */
+    background-color: rgb(124, 29, 116);
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.mancare-1-menu-2{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+.product-container-menu{
+    margin-top: 20px;
+}
+.title-main-product{
+    font-size:25px;
+}
+.brunch{
+    /* border: 2px solid white; */
+}
+footer{
+   margin: 150px 0 50px 0;
+   display: flex;
+   justify-content: center;
+}
